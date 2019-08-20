@@ -121,7 +121,6 @@ h1 {
 }
 
 .avatar {
-  background-color: #839FA8;
   background-size: cover;
   margin: 0 auto;
   width: 180px;
@@ -149,7 +148,6 @@ h1 {
 
 .metodologia-item {
   border: 3px solid #f1dbeb;
-  border-radius: 10px;
   margin-right: 20px;
   margin-bottom: 30px;
 }
