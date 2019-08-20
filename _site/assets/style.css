@@ -113,7 +113,7 @@ h1 {
 
 /*SOBRE*/
 .sobre {
-  background-color: #73305E;
+  background-color: #4D2D61;
 }
 
 .sobre h1 {
@@ -123,7 +123,6 @@ h1 {
 .avatar {
   background-size: cover;
   margin: 0 auto;
-  background-color: #9DA6AD;
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -138,14 +137,9 @@ h1 {
   padding: 20px;
 }
 
-.sobre-daniela a {
-  color: #fff;
-  font-weight: bold;
-}
-
 /*METODOLOGIA*/
 .metodologia {
-  background-color: #42224C;
+  background-color: #A15092;
 }
 
 .metodologia h1 {
@@ -154,7 +148,6 @@ h1 {
 
 .metodologia-item {
   border: 3px solid #f1dbeb;
-  border-radius: 10%;
   margin-right: 20px;
   margin-bottom: 30px;
 }
@@ -178,7 +171,7 @@ h1 {
 
 /*MISSAO*/
 .missao {
-  background-color: #210E26;
+  background-color: #EA9A9E;
 }
 
 .missao-item {
@@ -231,7 +224,6 @@ h1 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 1em;
-  outline: none;
 }
 
 .formulario-rodape button {
@@ -251,18 +243,18 @@ h1 {
 
 .redes-sociais {
   background-color: #73305E;
-  width: 100%;
 }
 
 .redes-sociais ul {
   display: flex;
+  width: 50%;
 }
 
 .redes-sociais ul li {
   margin-left: 10px;
   padding: 10px;
-  color: #fff;
 }
+
 .redes-sociais a {
   color: #fff;
 }
