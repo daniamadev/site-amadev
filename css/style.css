@@ -113,7 +113,7 @@ h1 {
 
 /*SOBRE*/
 .sobre {
-  background-color: #4D2D61;
+  background-color: #73305E;
 }
 
 .sobre h1 {
@@ -121,6 +121,7 @@ h1 {
 }
 
 .avatar {
+  background-color: #9DA6AD;
   background-size: cover;
   margin: 0 auto;
   width: 180px;
@@ -137,9 +138,14 @@ h1 {
   padding: 20px;
 }
 
+.sobre-daniela a {
+  color: #fff;
+  font-weight: bold;
+}
+
 /*METODOLOGIA*/
 .metodologia {
-  background-color: #A15092;
+  background-color: #42224C;
 }
 
 .metodologia h1 {
@@ -172,7 +178,7 @@ h1 {
 
 /*MISSAO*/
 .missao {
-  background-color: #EA9A9E;
+  background-color: #210E26;
 }
 
 .missao-item {
