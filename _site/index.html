@@ -1,14 +1,28 @@
----
-layout: home
----
-
 <!DOCTYPE html>
-<html lang="pt_BR" dir="ltr">
-  {%- include head.html -%}
-  <body>
-    {%- include header.html -%}
-
-      <main class="intro">
+<html lang="pt_BR" dir="ltr"><head>
+  <title>Amadev - Desenvolvimento de sites em Campinas e região</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body><header class="menu" id="top">
+  <div class="container">
+    <a href="index.html"><img src="/assets/logo-branca.png" alt="logo-amadev" width="172px" height="60px"></a>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="/">Portfolio</a></li>
+        <li><a href="/">Serviços</a></li>
+        <li><a href="#missao">Missão</a></li>
+        <li><a href="#metodologia">Metodologia</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="intro">
         <div class="container col">
           <!-- div contem alguma propriedade que main nao possui,
         por isso sem o div o botao passava da secao -->
@@ -92,7 +106,33 @@ layout: home
           base da empresa, garantindo um excelente produto final.
         </div>
       </div>
-    </section>
-    {%- include footer.html -%}
-  </body>
+    </section><footer class="contato" id="contato">
+  <h1>&lt; Contato &gt;</h1>
+  <div class="container">
+  <form class="formulario-rodape"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSdBlqG69mzE28W0QuMUWOefHkfA5BYCZOtGImxBOxvrfsxdGA/formResponse"
+  method="post" target="hidden_iframe" onsubmit="submitted=true;">
+    <div class="formulario"><input type="text" name="entry.2005620554" placeholder="Nome e sobrenome*" required></div>
+    <div class="formulario"><input type="text" name="entry.1045781291" placeholder="E-mail*" required></div>
+    <div class="formulario"><input type="text" name="entry.1166974658" placeholder="Telefone/Whatsapp*" required></div>
+    <div class="formulario"><input type="text" name="entry.542903124" placeholder="Assunto*" required></div>
+    <textarea  rows="5" type="message" name="entry.839337160" placeholder="O que está buscando? Deixe uma breve descrição que entrarei em contato*" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  </div>
+  <div class="container redes-sociais">
+    <ul>
+      <li><a href="">Facebook</a></li>
+      <li><a href="https://github.com/daniamadev" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/daniela-amadeu-8b608116b/" target="_blank">Linkedin</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="/">Portfolio</a></li>
+      <li><a href="/">Serviços</a></li>
+      <li><a href="#missao">Missão</a></li>
+      <li><a href="#metodologia">Metodologia</a></li>
+      <li><a href="#top">TOPO</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
 </html>
