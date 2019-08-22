@@ -269,3 +269,28 @@ h1 {
 .redes-sociais a {
   color: #fff;
 }
+
+/*MOBILE*/
+@media (max-width: 798px) {
+  .menu-nav ul{
+    flex-wrap: wrap;
+  }
+  .redes-sociais ul {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .metodologia-col {
+    flex-direction: column;
+  }
+  .metodologia-item {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 535px) {
+  .menu-nav ul {
+    display: none;
+  }
+}
