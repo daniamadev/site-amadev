@@ -348,7 +348,9 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(to right, #C94B4B, #630162); }
+    background-image: linear-gradient(to right, #C94B4B, #630162);
+    align-items: center;
+    align-self: center; }
   .cabecalho .menu {
     flex: 1; }
     .cabecalho .menu ul {

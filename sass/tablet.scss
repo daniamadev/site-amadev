@@ -12,6 +12,8 @@
             left: 0;
             right: 0;
             @include gradient();
+            align-items: center;
+            align-self: center;
         }
         .menu {
             flex: 1;
