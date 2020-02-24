@@ -351,6 +351,8 @@ body {
     background-image: linear-gradient(to right, #C94B4B, #630162); }
   .cabecalho .menu {
     flex: 1; }
+    .cabecalho .menu ul {
+      align-items: center; }
 
   .principal {
     min-height: 100vh; }
@@ -373,9 +375,9 @@ body {
     flex-direction: row; }
   .rodape .redes-sociais {
     width: 30%; } }
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+@media only screen and (min-width: 960px) and (max-width: 1440px) {
   .container {
-    max-width: 960px; }
+    min-width: 960px; }
 
   .missao {
     min-height: 100vh; }
