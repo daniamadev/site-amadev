@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px){
+    .container {
+        max-width: 768px;
+    }
+    .cabecalho {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            @include gradient();
+        }
+        .menu {
+            flex: 1;
+            ul {
+                align-items: center;
+            }
+        }
+    }
+    .principal {
+        min-height: 100vh;
+        .main {
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+
+    .missao {
+        .flexr {
+            display: flex;
+            justify-content: flex-end;
+            padding: 1.25rem;
+         }
+    }
+
+    .metodologia {
+        .fmetodologia {
+            display: flex;
+        }
+        .cores {
+            max-width: 470px;
+        }
+        .metodologia_texto {
+            max-width: 470px;
+        }
+    }
+
+    .rodape {
+        .sfooter {
+            flex-direction: row;
+        }
+        .redes-sociais {
+            width: 30%;
+        }
+    }
+
+}

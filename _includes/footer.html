@@ -1,60 +1,40 @@
-  <footer class="contato" id="contato">
-    <h1>&lt; Contato &gt;</h1>
-    <div class="container">
-    <form class="formulario-rodape"
-    action="https://docs.google.com/forms/d/e/1FAIpQLSdBlqG69mzE28W0QuMUWOefHkfA5BYCZOtGImxBOxvrfsxdGA/formResponse"
-    method="post" target="hidden_iframe" onsubmit="submitted=true;">
-      <div class="formulario"><input type="text" name="entry.2005620554" placeholder="Nome e sobrenome*" required></div>
-      <div class="formulario"><input type="text" name="entry.1045781291" placeholder="E-mail*" required></div>
-      <div class="formulario"><input type="text" name="entry.1166974658" placeholder="Telefone/Whatsapp*" required></div>
-      <div class="formulario"><input type="text" name="entry.542903124" placeholder="Assunto*" required></div>
-      <textarea  rows="5" type="message" name="entry.839337160" placeholder="O que está buscando? Deixe uma breve descrição que entrarei em contato*" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-    </div>
-    <div class="container redes-sociais">
-      <ul>
-        <li><a href="https://facebook.com/amadevcampinas">Facebook</a></li>
-        <li><a href="https://github.com/daniamadev" target="_blank">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/daniela-amadeu-8b608116b/" target="_blank">Linkedin</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="/">Portfolio</a></li>
-        <li><a href="/">Serviços</a></li>
-        <li><a href="#missao">Missão</a></li>
-        <li><a href="#metodologia">Metodologia</a></li>
-        <li><a href="#top">TOPO</a></li>
-      </ul>
-    </div>
-  </footer>
-  <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v4.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your customer chat code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="101651014541509"
-        theme_color="#7646ff"
-        logged_in_greeting="Olá. Como posso te ajudar?"
-        logged_out_greeting="Olá. Como posso te ajudar?">
-      </div>
-
-
-  <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6331454.js"></script>
-  <!-- End of HubSpot Embed Code -->
 </body>
+<footer class="rodape" id="contato">
+    <h1>&#60;Vamos conversar?&#62;</h1>
+    <div class="container sfooter">
+        <div class="formulario-rodape">
+            <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdBlqG69mzE28W0QuMUWOefHkfA5BYCZOtGImxBOxvrfsxdGA/formResponse"
+            method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                <div class="formulario"><input type="text" name="entry.2005620554" placeholder="Nome e sobrenome*" required></div>
+                <div class="formulario"><input type="text" name="entry.1045781291" placeholder="E-mail*" required></div>
+                <div class="formulario"><input type="text" name="entry.1166974658" placeholder="Telefone/Whatsapp*" required></div>
+                <div class="formulario"><input type="text" name="entry.542903124" placeholder="Assunto*" required></div>
+                <textarea  rows="5" type="message" name="entry.839337160" placeholder="O que está buscando? Deixe uma breve descrição que entrarei em contato*" required></textarea>
+                <div><button type="submit">Enviar</button></div>
+            </form>
+        </div>
+        <div class="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <div>
+                <a href="https://facebook.com/amadevcampinas">
+                    <img src="../assets/icons8-facebook-old-30.png" alt="Facebook">
+                    /amadevcampinas
+                </a>
+            </div>
+            <div>
+                <img src="../assets/icons8-important-mail-30.png" alt="E-mail">
+                danielapamadeuatgmaildotcom
+            </div>
+            <div>
+                <img src="../assets/icons8-phone-30.png" alt="Celular e Whatsapp">
+                (15) 9 9814-0360
+            </div>
+            <div>
+                <img src="../assets/icons8-location-30.png" alt="Endereço">
+                Barão Geraldo, Campinas - SP
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

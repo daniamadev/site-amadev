@@ -1,0 +1,38 @@
+.metodologia {
+    margin-bottom: 1.875rem;
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        color: $purple;
+        text-align: center;
+        margin: 1.875rem auto;
+    }
+    h2 {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding: 1.25rem;
+    }
+    .cores {
+        max-width: 320px;
+    }
+    .green {
+        background: $green;
+    }
+    .blue {
+        background: $blue;
+    }
+    .purple {
+        background: $purple;
+    }
+    .metodologia_texto {
+        max-width: 320px;
+        p {
+        padding: 1.25rem 1.25rem 0.625rem 1.25rem;
+        color: $texto;
+        font-size: 1rem;
+        line-height: 1.3;
+        }
+    }
+}
